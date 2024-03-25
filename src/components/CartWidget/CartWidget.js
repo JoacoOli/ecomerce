@@ -1,8 +1,9 @@
-import cart from './assets/carrito.svg'
+import { CiShoppingCart } from "react-icons/ci";
+
 const CartWidget = () => {
     return (
         <div>
-            <img src={cart} alt="cart-widget"/>
+            <CiShoppingCart />
         </div>
     )
 }
