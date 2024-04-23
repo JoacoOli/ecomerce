@@ -6,8 +6,9 @@ const products = [
         category: 'nike',
         img: 'https://th.bing.com/th/id/OIP.YdPRYTHLB6QtlWQokbLiQgHaFS?rs=1&pid=ImgDetMain',
         stock: '13',
-        description: '',
-    }
+        description: 'jordan',
+    },
+    {id: '2', name: 'samsung s21', price: 800, category: 'celular', img: 'https://th.bing.com/th/id/OIP.YdPRYTHLB6QtlWQokbLiQgHaFS?rs=1&pid=ImgDetMain'}
 ]
 
 export const getProducts = () => {
